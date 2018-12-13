@@ -1,0 +1,57 @@
+
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+li:hover {
+    background-color: royalblue;
+}
+
+.submenu:hover {
+    background-color: lightskyblue;
+}
+
+.navbar {
+    border-bottom: royalblue 3px solid;
+}
+
+#home-section{
+    background-image: url("../Images/pexels-photo-97906.jpeg");
+    min-height: 700px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dark-overlay{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-height: 700px;
+    width: 100%;
+}
+
+.home-inner{
+    padding-top: 150px;
+}
+
+.card-form{
+
+}
+
+.fa{
+    background-color: white;
+    color: blue;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#explore-section .fa, #share-section .fa{
+        background-color: royalblue;
+        color: white;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
